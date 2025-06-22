@@ -1,0 +1,7 @@
+body { font-family: sans-serif; padding: 10px; max-width: 500px; margin: auto; }
+header { background: #4a90e2; color: white; padding: 10px; border-radius: 5px; }
+section { margin-top: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+button { margin-top: 10px; padding: 5px 10px; }
+#calendarGrid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; }
+.dayCell { padding: 10px; border: 1px solid #ddd; text-align: center; cursor: pointer; }
+.dayCell.active { background: #4a90e2; color: white; }

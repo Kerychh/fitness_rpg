@@ -1,0 +1,7 @@
+[
+  {"id": "001","name": "Віджимання","type": "дім","difficulty": 1},
+  {"id": "002","name": "Присідання","type": "дім","difficulty": 1},
+  {"id": "003","name": "Планка","type": "дім","difficulty": 2},
+  {"id": "004","name": "Жим лежачи","type": "зал","difficulty": 3},
+  {"id": "005","name": "Присідання зі штангою","type": "зал","difficulty": 3}
+]

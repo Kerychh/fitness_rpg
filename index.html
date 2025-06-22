@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фітнес RPG</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>🏋️‍♂️ Фітнес RPG</h1>
+    <div>Рівень: <span id="level">1</span> | EXP: <span id="exp">0</span></div>
+  </header>
+
+  <section id="profile">
+    <h2>Профіль</h2>
+    <form id="profileForm">
+      Стать:
+      <select id="gender">
+        <option value="male">Чоловік</option>
+        <option value="female">Жінка</option>
+      </select><br>
+      Зріст (см): <input type="number" id="height"><br>
+      Вага (кг): <input type="number" id="weight"><br>
+      Мета:
+      <select id="goal">
+        <option value="lose">Схуднути</option>
+        <option value="gain">Набрати</option>
+        <option value="stay">Підтримувати</option>
+      </select><br>
+      <button type="submit">Зберегти профіль</button>
+    </form>
+  </section>
+
+  <section id="dayStatus">
+    <h2>Стан на сьогодні</h2>
+    Енергія:
+    <select id="energy">
+      <option value="low">Низька</option>
+      <option value="medium">Середня</option>
+      <option value="high">Висока</option>
+    </select><br>
+    Настрій:
+    <select id="mood">
+      <option value="bad">Поганий</option>
+      <option value="ok">Нормальний</option>
+      <option value="good">Гарний</option>
+    </select><br>
+    <button id="saveDay">Зберегти стан</button>
+  </section>
+
+  <section id="calendar">
+    <h2>Календар</h2>
+    <div id="calendarGrid"></div>
+  </section>
+
+  <section id="exercises">
+    <h2>Вправи</h2>
+    <input type="text" placeholder="Введи номер вправи..." id="exerciseSearch">
+    <div id="exerciseList"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
